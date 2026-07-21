@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink font-body antialiased;
+}
+
+::selection {
+  background: #A8843F33;
+}
+
+.container-content {
+  @apply max-w-content mx-auto px-6 md:px-10;
+}
+
+.eyebrow {
+  @apply font-mono text-[11px] tracking-[0.22em] uppercase text-brass-600;
+}
+
+.seal {
+  background: radial-gradient(circle at 35% 30%, #1D3560 0%, #0F1F3D 70%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
