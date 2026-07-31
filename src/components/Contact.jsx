@@ -171,9 +171,9 @@ const CONTACT_EMAIL = "ashwani@sharmaboardadvisory.com";
 // const EMAILJS_SERVICE_ID = "YOUR_SERVICE_ID";
 // const EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID";
 // const EMAILJS_PUBLIC_KEY = "YOUR_PUBLIC_KEY";
-const EMAILJS_SERVICE_ID = "service_iy6o9yn";
-const EMAILJS_TEMPLATE_ID = "template_gbb3wbb";
-const EMAILJS_PUBLIC_KEY = "xWeViKIz67x66RMFs";
+const EMAILJS_SERVICE_ID = "service_0zvi0ig";
+const EMAILJS_TEMPLATE_ID = "template_49qe6fs";
+const EMAILJS_PUBLIC_KEY = "Hw7Cfiz8xw_Wvv8b2";
 
 export default function Contact() {
   const [form, setForm] = useState(initialForm);
