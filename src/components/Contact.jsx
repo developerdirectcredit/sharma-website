@@ -165,7 +165,7 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const initialForm = { name: "", email: "", phone: "", company: "", message: "" };
-const CONTACT_EMAIL = "ashwani@sharmaboardadvisory.com";
+const CONTACT_EMAIL = "ashwshar1964@gmail.com";
 
 // TODO: Apne EmailJS dashboard se ye teeno values yaha daalein
 // const EMAILJS_SERVICE_ID = "YOUR_SERVICE_ID";
